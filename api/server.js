@@ -9,3 +9,5 @@ server.get('*', (req, res) => {
     message: 'Welcome To The Posts Database!',
   });
 });
+
+module.exports = server;
